@@ -1,0 +1,103 @@
+
+<html>
+<head>
+<title>客製化電子共用錢包</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="REFRESH" CONTENT="60" url="logout.php" />
+<style>
+div.container {
+    width: 100%;
+
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: MediumSeaGreen;
+    text-align: center;
+}
+
+footer {
+	padding: 1em;
+    color: white;
+    background-color: MediumSeaGreen;
+    clear: left;
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+	text-align:right;
+}
+a {
+	text-decoration: none
+}
+
+nav {
+    float: left;
+    background-color:hsla(260, 100%, 50%, 0.7);
+    max-width: 20%;
+    height:67%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section {
+    margin-left: 12%;
+    padding: 1em;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:right;background-color:#111111;color:white;font-family:Microsoft JhengHei;font-size:135%;">已登入|<a href="logout.php" style="color:yellow;" target="_parent">登出</a></div>
+
+<div class="container">
+
+<header>
+   <h1 style="font-size: 300%; font-family:Microsoft JhengHei;">客製化電子共用錢包</h1>
+</header>
+<h4 style = 'text-align:center;'>
+  <ul type = "none">
+	<a href="index2.html" style="color:white; padding: 20px;" target="_parent">首頁</a>
+	<a href="personal_wallet.php" style="font-size: 100%; color:white; padding: 20px;" target="_parent">電子個人錢包</a>
+	<a href="common_wallet.php" style="font-size: 100%; color:white; padding: 20px;" target="_parent">電子共用錢包</a>
+	<a href="member.php" style="font-size: 100%; color:white; padding: 20px;" target="_parent">會員個人資料</a>
+	<a href="friend.php" style="font-size: 100%; color:white; padding: 20px;" target="_parent">好友</a>
+	<a href="re_message.php" style="font-size: 100%; color:white; padding: 20px;" target="_parent">訊息</a>
+	
+  </ul>
+</h4>
+
+<nav>
+    <br>
+    <div style= "text-align:center;"><img src="/avatar.png" width="100px" height="100px"></div>
+    <br>
+    <iframe src="/member2.php" style="max-width:100%;height:60%;" frameborder="0" scrolling="no"></iframe>
+    
+</nav>
+
+<section>
+    <h3 style="color:Indigo">最新訊息</h3>
+    <iframe src="/re_2message.php" width=100% height="50%" frameborder="0" scrolling="yes"></iframe>
+</section>
+
+<article>
+  
+</article>
+
+<footer>
+</footer>
+
+</div>
+
+</body>
+</html>
